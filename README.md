@@ -2,7 +2,7 @@
 
 > Your AI-powered local guide to authentic Delhi street food, powered by Kiro AI
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
+[![Streamlit App](https://streetfoodrecommnederapp-bod9yguvysetpxddsms5cq.streamlit.app/)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -39,40 +39,6 @@ graph TD
 - Python 3.8 or higher
 - Kiro AI API credentials
 - Git
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Jatin-analyst/Street_Food_Recommneder_app
-   cd delhi-street-food-app
-   ```
-
-2. **Create a virtual environment**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Set up environment variables**
-   
-   Create a `.env` file in the project root:
-   ```env
-   KIRO_API_KEY=your_kiro_api_key_here
-   KIRO_API_URL=your_kiro_api_url_here
-   ```
-
-5. **Run the application**
-   ```bash
-   streamlit run app.py
-   ```
-
-The app will open in your browser at `http://localhost:8501`
 
 ## 📁 Project Structure
 
